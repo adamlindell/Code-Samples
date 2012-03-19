@@ -1,8 +1,10 @@
-This sample application is the a Java re-make of the simple receipt tracking 
-software I wrote to manage my famliy budget while I was getting out of debt.
+C O D E   S A M P L E
+This sample is the a Java re-make of a simple receipt tracking application 
+I wrote to manage our family budget while we were getting out of debt.
 It allows for entry of expenses and displays some simple metrics about 
 month-to-date progress of expenses vs. budgeted amounts. 
 
+D A T A   M O D E L
 I kept the data model for the application extremely simple to avoid 
 over-complicating my code sample.  In order to showcase my data modelling 
 ability, I have concieved of a fictional Coupon Management System, which
