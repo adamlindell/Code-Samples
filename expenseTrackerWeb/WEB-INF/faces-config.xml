@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+    version="1.2">
+	<managed-bean>
+		<managed-bean-name>enterExpenseBackingBean</managed-bean-name>
+		<managed-bean-class>com.expensetracker.backingbeans.EnterExpenseBackingBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	 </managed-bean>
+	 <managed-bean>
+		<managed-bean-name>recentExpenseBackingBean</managed-bean-name>
+		<managed-bean-class>com.expensetracker.backingbeans.RecentExpenseBackingBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	 </managed-bean>
+	 <managed-bean>
+		<managed-bean-name>budgetBackingBean</managed-bean-name>
+		<managed-bean-class>com.expensetracker.backingbeans.BudgetBackingBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	 </managed-bean>
+	<navigation-rule>
+	   <navigation-case>
+	     <from-outcome>Success</from-outcome>
+	     <to-view-id>/pages/index.jsp</to-view-id>
+	   </navigation-case>
+	 </navigation-rule> 
+</faces-config>

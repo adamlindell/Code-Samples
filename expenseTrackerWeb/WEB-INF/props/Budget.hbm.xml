@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.expensetracker.model">
+    <class name="Budget">
+        <id name="budgetId" type="int">
+            <generator class="identity"/>
+        </id>
+        <timestamp name="createTimestamp" />
+        <property name="month" type="int" />
+        <property name="year" type="int" />
+        <property name="budgetAmount" type="big_decimal">
+        	<column name="budgetAmount" scale="10" precision="2" />
+        </property>
+        <many-to-one name="category" column="categoryId" lazy="false" />
+    </class>
+</hibernate-mapping>

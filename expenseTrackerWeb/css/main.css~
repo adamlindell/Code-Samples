@@ -1,0 +1,135 @@
+/* 
+ * Reset styles inspired by Eric Meyer 
+ * www.meyerweb.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Expense Tracker Styles begin here. */
+
+/* font */
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+h1 {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: large;
+	font-weight: bold;
+}
+
+/* color */
+body {
+  background-color: #DDDDDD;
+}
+
+h1 {
+	color: #A93736;
+}
+
+h2 {
+	color: white;
+}
+
+#sections li {
+	background-color: #6FBF4D;
+	border-radius: 15px;
+}
+
+/* positioning */ 
+form {
+	margin: 20px 0 20px 0;
+	position: relative;
+	width: 90%;
+}
+
+#sections li {
+	width: 30%;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+fieldset div {
+	width: 45%;
+	float: left;
+}
+
+fieldset div * {
+	display: block;
+	min-height: 1.5em;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+h2 {
+	margin-bottom: 1em;
+}
+
+p {
+	margin-bottom: 2em;
+}
+
+#save {
+	display:block;
+	margin: 1000px auto 0;
+	width: 60%;
+	height: 2em;
+}
+
+fieldset div textarea {
+	min-height: 3em;
+}
+/* Legends will be used only for accessibility. */
+legend {
+	display:none;
+}
+
+/* 
+ * In the normal layout, all three sections are visible at once.
+ * There is no need for a footer navigation bar.
+ */
+#smallScreenNavigation {
+	display:none;
+}
+

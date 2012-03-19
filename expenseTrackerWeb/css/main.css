@@ -1,0 +1,178 @@
+/* 
+ * Reset styles inspired by Eric Meyer 
+ * www.meyerweb.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font */
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+h1 {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.money{
+	text-align: right;
+}
+
+th{
+	font-weight: bold;
+	text-align:left;
+}
+
+/* color */
+body {
+  background-color: #EEEBDA;
+}
+
+.error {
+	list-style-image: url(../img/error.png);
+	list-style-position: inside;
+}
+
+h1,h2 {
+	color: #A93736;
+}
+
+.info {
+	list-style-image: url("../img/info.png");
+	list-style-position: inside;
+}
+
+#sections li {
+	background-color: white;
+	border-radius: 15px;
+}
+
+table {
+	border: thin black solid;
+}
+
+td {
+	border-left: thin black solid;
+	border-right: thin black solid;
+	padding: 0.25em 0.25em 0;
+}
+
+th {
+	border: thin black solid;
+	padding: 0.25em;
+}
+
+.even {
+	background-color: #F4F3EF; /* for table zebra striping */
+}
+
+/* positioning */ 
+#ui-datepicker-div{
+	display: none; /*avoid unstyled datepicker artifacts*/
+}
+
+form {
+	margin: 20px 0 0 20px;
+	position: relative;
+	
+}
+
+h2 {
+	margin-bottom: 1em;
+}
+
+fieldset input, fieldset select {
+	width: 90%;
+}
+
+label {
+	margin: 10px 10px 0 0;
+}
+
+fieldset label {
+	display: block;
+}
+
+fieldset textarea {
+	width: 90%;
+	min-height: 3em;
+}
+
+legend {
+	display:none; /* Legends will be used only for accessibility. */
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+#save {
+	display:block;
+	margin: 1em auto 0.5em;
+	width: 60%;
+	height: 2em;
+}
+
+#sections {
+	margin-top: 2em;
+}
+
+#sections li {
+	width: 35%;
+	padding: 0.5em;
+	margin-right: 1.25em;
+	float: left;
+}
+
+#sections #enterExpense {
+	width: 20%;
+}
+
+table {
+	margin-top: 10px;
+	width: 100%;
+}
+
+
