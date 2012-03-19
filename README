@@ -1,5 +1,5 @@
 C O D E   S A M P L E
-This sample is the a Java re-make of a simple receipt tracking application 
+This sample is a simplified Java version of a receipt tracking application 
 I wrote to manage our family budget while we were getting out of debt.
 It allows for entry of expenses and displays some simple metrics about 
 month-to-date progress of expenses vs. budgeted amounts. 
