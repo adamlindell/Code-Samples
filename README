@@ -7,7 +7,7 @@ month-to-date progress of expenses vs. budgeted amounts.
 D A T A   M O D E L
 I kept the data model for the application extremely simple to avoid 
 over-complicating my code sample.  In order to showcase my data modelling 
-ability, I have concieved of a fictional Coupon Management System, which
+ability, I have conceived of a fictional Coupon Management System, which
 houses data about coupon discounts for a retailer.  
 In this system, the coupons can be targeted to specific merchandise 
 or sales channels.  The use of the coupon may also be restricted 
