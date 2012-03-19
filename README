@@ -1,2 +1,12 @@
-This sample application is the a Java re-make of the simple receipt tracking software I use to manage my personal budget. 
-It allows for entry of expenses and has some simple metrics about month-to-date progress of expenses vs. budgeted amounts. 
+This sample application is the a Java re-make of the simple receipt tracking 
+software I wrote to manage my famliy budget while I was getting out of debt.
+It allows for entry of expenses and displays some simple metrics about 
+month-to-date progress of expenses vs. budgeted amounts. 
+
+I kept the data model for the application extremely simple to avoid 
+over-complicating my code sample.  In order to showcase my data modelling 
+ability, I have concieved of a fictional Coupon Management System, which
+houses data about coupon discounts for a retailer.  
+In this system, the coupons can be targeted to specific merchandise 
+or sales channels.  The use of the coupon may also be restricted 
+including making coupons good only for a single use, or a single day.
